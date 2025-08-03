@@ -287,7 +287,7 @@ function scrollToSection(sectionId) {
 function downloadResume() {
     // Create a dummy download link
     const link = document.createElement('a');
-    link.href = './resume/Hemanth_Resume.pdf'; // Replace with actual resume URL
+    link.href = './assets/resume/Hemanth_Resume.pdf'; // Replace with actual resume URL
     link.download = 'Hemanth_Resume.pdf';
     link.click();
     
